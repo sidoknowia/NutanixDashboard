@@ -1,0 +1,277 @@
+/**
+
+Author : Siddharth Patel
+Developed for Nutanix UI challenge 
+
+Email id : sidpatel789@gmail.com
+
+*/
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,200,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,200,0,0.4); 
+}
+
+body{
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png");
+	background-repeat: repeat-x;
+}
+
+i,a,button {
+	cursor:pointer;
+}
+
+header{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li{
+	list-style: none;
+}
+
+.img-logo{
+	width: 200px;
+}
+
+.company-logo{
+	margin-top: -20px;
+	margin-left: -40px;
+}
+
+.company-feature{
+	color : #26A65B;
+	font-size: 25px;
+}
+
+.company-feature-tagline{
+	color: #3498DB !important;
+	font-size: 18px;
+}
+
+.img{
+	width: 130px;
+}
+
+.img-circle{
+	border-radius: 50% !important;
+	margin: 0;
+	padding: 0;
+	border: 4px solid silver;
+}
+
+#main_container{
+	/*border: 3px solid green;*/
+	height: 100%;
+	/*margin-top: 20px;
+	margin-bottom: 50px;*/
+}
+
+.nav-bar{
+	height: inherit;
+	font-size: 22px;
+	color: black;
+}
+
+.navbar-header{
+	color:black;
+	margin: 0;
+	padding: 5px;
+	/*margin: 10px;*/
+}
+
+.navbar-header-text{
+	cursor: pointer;
+	padding: 10px;
+	font-size: 25px;
+}
+
+
+#nav_bar_items{
+	color:black;
+	float: right;
+	margin-top: 1.4%;
+}
+
+#nav_bar_items li{
+	list-style: none;
+	float:left;
+	padding: 10px;
+	margin: 15px;
+	border: 1px solid green;
+	border-radius: 13px;
+	font-size: 18px;
+	background-color: white;
+}
+
+.body-container{
+	border-top: 1px solid black;
+	margin-left: -15px;
+	margin-right: -15px;
+	min-height: 300px;
+	background-color: #F2F1EF; 
+}
+
+
+.product_image{
+	width: 100px;
+	height: 130px;
+}
+
+#deal_list{
+	margin-top: 10px;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.deal_item{
+    border: 1px solid #ABB7B7;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.item_details{
+	border-top:1px solid #95A5A6;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+.deal-item-selected{
+	border: 1px solid red;
+	background-color: #ff9999;
+	color:black;
+}
+
+.deal_name{
+	margin-left: 3px;
+}
+
+#deal_price{
+	float:right;
+}
+
+.border-line{
+	border-top: 1px solid blue;
+}
+
+.sort-box{
+	padding: 8px;
+	margin: 10px;
+	font-size: 20px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+
+.border-details-outline{
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid brown;
+	border-radius: 10px;
+	min-height: 580px;
+	height: 100%;
+}
+
+#courier_item_name{
+	color:maroon;
+	border-bottom: 1px solid maroon;
+}
+
+.prod_details{
+	height: 100%;
+	background-color: #e9e9e9;
+	border: 1px solid #d3e3e3;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.item-link{
+	display:inline-block;
+    width:180px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
+.item_rating{
+	color: black;
+}
+.rated{
+	color: #E87E04;
+}
+
+.unrated{
+	color: #6C7A89;
+}
+
+.discount{
+	color: white;
+	background-color: #C0392B;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #96281B;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	padding: 15px;
+	
+}
+
+#progress_bar{
+	height: 3px;
+}
+
+.spinner{
+	color: #3498DB;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+
+#social_buttons{
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	width: 100%; 
+}
+
+.btnz {
+   display: block;
+   float: left;
+   padding: 10px 15px;
+   border:none;
+   background-color: #ececec;
+   text-decoration: none;
+   font-size: 18px;
+   color: #FFF;
+   margin: 10px;
+}
+ 
+.btnz:hover {
+   color: #efefef;
+}
+
+.like-btn{
+	background-color: #3b5998;
+}
+
